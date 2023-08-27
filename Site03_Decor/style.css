@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@600 & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color:#f5f4f2;
+  --text-dark:#393733;
+  --text-light:#78716c;
+  --white: #ffffff;
+  --max-witdh:1200px;
+  --header-font:font-family: 'Lora', serif;
+}
+
+body {
+  font-family: 'Poppins', serif;
+}
+
+.casa {
+  width: 70px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-shadow: #747069 0px 0px 10px 2px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--text-light);  
+}
+
+li a:hover {
+  color: var(--text-dark);  
+}
+
+main {
+  height: 100vh;
+  background-image: url(copia2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.frase {
+  height: 80%;
+  font-style: italic;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.frase h1 {
+  color: var(--text-dark);
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.frase p {
+  color: var(--text-light);
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.principal {
+  background-color: #f2f2f2;
+  padding: 90px;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.principal h3 {
+  margin-top: 10px;
+  padding: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+.principal p {
+  margin-top: 10px;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: .5px;
+}
+
+.principal a {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.contato {
+  display: grid;
+  padding: 100px;
+  height: 400px;
+  background-color: white;
+  justify-items: center;
+  align-content: center;
+}
+
+.botao {
+  margin: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: var(--text-dark);
+  border-radius: 7px;
+}
+
+.botao:hover {
+  box-shadow: #d3cdc1 0px 0px 20px 0.5px;
+}
+
+.contato .h1_grande {
+  color: var(--text-dark);
+  font-size: 25px;
+  font-weight: 500;
+}
+.contato .p_grande {
+  width: 700px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-light);
+  text-align: center;
+  padding: 10px;
+}
+
+.rodape {
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+}
+
+.rodape p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.icon {
+  height: 20px;
+}
+
+.social {
+  margin-top: 5px;
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
