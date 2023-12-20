@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(45deg, rgb(245, 167, 180), rgb(245, 97, 97)) ;
+}
+
+.calculadora {
+  border: 1px solid rgb(179, 163, 163);
+  padding: 20px;
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  color: #ffffff;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(184, 89, 89, 0);
+  font-size: 40px;
+  text-align: right;
+  text-align: right;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+button {
+  border: 0;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 8px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.botaoigual {
+  font-size: 25px;
+  background-color:  rgb(216, 62, 62);
+}
+
+.operador {
+  font-size: 25px;
+  color: rgb(216, 62, 62);
+}
+
+.botaomaior {
+  font: 40px;
+  font-weight: 600;
+  color: rgb(216, 62, 62);
+}
