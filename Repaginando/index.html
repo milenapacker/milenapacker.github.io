@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repaginando</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="fav.svg" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <a href="#"><img class="logo" src="Logo.png" alt="Logo Repaginando"></a>
+        <li><a class="nav-tracinho" href="#">Home</a></li>
+        <li><a class="nav-tracinho" href="#">Perfil</a></li>
+        <li><a class="nav-tracinho" href="#">Livros salvos</a></li>
+        <li><label for="type">
+          <input class="busca" type="text">
+        </label></li>
+          <button class="btn-login">Login</button>
+          <button class="btn-signup">Inscreva-se</button>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="slider">
+      <div class="slider-content">
+
+        <input type="radio" name="btn-radio" id="radio1">
+        <input type="radio" name="btn-radio" id="radio2">
+        <input type="radio" name="btn-radio" id="radio3">
+
+        <div class="slide-box primeiro">
+          <img src="Banner_menor.png" alt="slide 1">
+        </div>
+
+        <div class="slide-box segundo">
+          <img src="Banner_menor02.png" alt="slide 2">
+        </div>
+
+        <div class="slide-box segundo">
+          <img src="Banner_menor03.png" alt="slide 3">
+        </div>
+
+        <div class="nav-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+        </div>
+
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+         <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+       </div>
+      </div>
+    </section>
+  
+  </main>
+  <script src="slide.js"></script>
+</body>
+</html>
