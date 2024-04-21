@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Goudy+Bookletter+1911&family=Homemade+Apple&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Sacramento&family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Goudy+Bookletter+1911&family=Homemade+Apple&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Rose:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Sacramento&family=VT323&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FBFBFD;
+}
+
+.parte1 {
+  width: 520px;
+  height: 330px;
+  margin-top: 160px;
+}
+
+.textos {
+  width: 520px;
+  height: 278px;
+}
+
+.titulo {
+  color: #091133;
+  font-family: "Red Rose", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  padding-bottom: 16px;
+  -webkit-text-stroke: 1px #000000;
+}
+
+.paragrafo {
+  color: #6F7CB2;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 36px;
+}
+
+.btn1 {
+  width: 190px;
+  height: 36px;
+  background-color: #111B47;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.btn1:hover {
+  background-color: #253992;
+  cursor: pointer;
+  border: none;
+}
+
+.btn2 {
+  width: 190px;
+  height: 36px;
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  color: #091133;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  border: 2px solid #091133;
+}
+
+.btn2:hover {
+  background-color: #253992;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 29.15px;
+  margin-top: 16px;
+}
+
+.div-celular {
+  margin-top: 100px;
+}
+
+.tudo {
+  display: flex;
+  justify-content: center;
+  gap: 98px;
+}
+
